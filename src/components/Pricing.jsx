@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Pricing() {
   return (
-    <div className='text-white'>
+    <div className='text-white' id='pricing'>
       <h1 className='text-3xl p-10 font-bold text-center'>Our Pricing</h1>
 
       <section className='flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-12 p-5'>
@@ -13,7 +13,7 @@ export default function Pricing() {
           <ul className='list-disc p-5 text-[14px]'>
             <li>Unlimited Hosting </li>
             <li>10 Revisions</li>
-            <li>1 free year Domain</li>
+            <li>1 year free Domain</li>
             <li>Free SSL Certificate</li>
             <li>No Customer support </li>
             <li>Social Media Integration </li>
@@ -28,7 +28,7 @@ export default function Pricing() {
           <ul className='list-disc p-5 text-[14px]'>
             <li>Unlimited Hosting </li>
             <li>Unlimited Revisions</li>
-            <li>2 free years Domain</li>
+            <li>2 year free Domain</li>
             <li>Free SSL Certificate</li>
             <li>24/7 Customer support </li>
             <li>Social Media Integration </li>

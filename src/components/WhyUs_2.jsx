@@ -36,7 +36,7 @@ export default function WhyUs_2() {
       ref={whyUsRef}
       className={`bg-[#1A1625] text-white ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
-      } transition-opacity transform duration-1000 ease-in-out`}
+      } transition-opacity transform duration-1000 ease-in-out`} id='why-us'
     >
       <h1 className='text-3xl font-bold p-10 md:pl-16 md:pt-5'>Why US ?</h1>
 

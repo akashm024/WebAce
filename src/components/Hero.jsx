@@ -37,7 +37,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className='mt-[63px]   bg-[#1A1625] text-[#F5F5F5]'>
+    <div className='mt-[63px]   bg-[#1A1625] text-[#F5F5F5]' id='hero'>
 
       <div className='pt-5'>
         <img src={img} alt="img" draggable="false" className='m-[auto] w-[65%]  md:w-[35%] rounded-[50%] md:float-right md:mr-10 md:mt-5' />

@@ -1,12 +1,28 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Nav = () => {
+  const [open, setOpen] = useState(false);
+
+  const scrollTo = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const navbarHeight = document.querySelector('.shadow-xl').offsetHeight;
+      const offsetPosition = element.offsetTop - navbarHeight;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+      setOpen(false); // Close the menu after clicking on a link
+    }
+  };
+
   let Links = [
-    { name: "Home", link: "/" },
-    { name: "Why us ?", link: "/" },
-    { name: "Pricing", link: "/" },
+    { name: "Home", id: "hero" },
+    { name: "Why us ?", id: "why-us" },
+    { name: "Pricing", id: "pricing" },
   ];
-  let [open, setOpen] = useState(false);
+
   return (
     <div className='shadow-xl w-full fixed top-0 left-0 bg-[#1A1625] z-40'>
       <div className='md:flex items-center justify-between bg-[#1A1625] py-4 md:px-10 px-7'>
@@ -22,15 +38,14 @@ const Nav = () => {
           {
             Links.map((link) => (
               <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-                <a href={link.link} className='hover:text-[#5D45FD] duration-500 text-white'>{link.name}</a>
+                <a href="#" onClick={(e) => {e.preventDefault(); scrollTo(link.id)}} className='hover:text-[#5D45FD] duration-500 text-white'>{link.name}</a>
               </li>
             ))
           }
-
         </ul>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Nav;
