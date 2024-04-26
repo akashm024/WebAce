@@ -1,4 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
+import html from "../assets/techStack/html.svg";
+import css from "../assets/techStack/css.svg";
+import js from "../assets/techStack/js.svg";
+import tailwind from "../assets/techStack/tailwind.svg";
+import react from "../assets/techStack/react.svg";
 
 export default function WhyUs_2() {
   const [isVisible, setIsVisible] = useState(false);
@@ -66,6 +71,15 @@ export default function WhyUs_2() {
             for others to edit and modify.
           </p>
         </div>
+      </div>
+
+      <h1 className='p-8   md:text-center text-[20px] font-bold' > Technologies used at Webace </h1>
+      <div className='flex flex-wrap justify-center space-x-3 md:space-x-10 ' >
+        <img src={html} alt="html" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
+        <img src={css} alt="css" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
+        <img src={js} alt="js" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
+        <img src={tailwind} alt="tailwind" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
+        <img src={react} alt="react" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px]  ' draggable="false"  />
       </div>
     </div>
   );
