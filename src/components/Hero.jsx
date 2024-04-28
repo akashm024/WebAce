@@ -12,7 +12,7 @@ export default function Hero() {
 
     const typingInterval = setInterval(() => {
       setTypedText(targetText.substring(0, index));
-      
+
       if (direction === 1) {
         index++;
         if (index > targetText.length) {
@@ -51,13 +51,15 @@ export default function Hero() {
             {typedText}
           </span><span className="text-transparent bg-gradient-to-r from-sky-500 to-indigo-800 bg-clip-text font-bold">{cursorVisible && "|"}</span>
           <br />
-           websites for your business<span className='text-[#5D45FD]'>.</span>
+          websites for your business<span className='text-[#5D45FD]'>.</span>
         </p>
         {/* Hero Sub-Text   */}
         <p className='p-6 pt-0  text-[12px] md:text-[16px] text-[#b9b9b9] w-[90%] md:w-[60%] md:p-12 md:pl-24 md:pt-0 md:pb-6'>WebAce: Crafting dynamic websites to elevate your business. Stand out online with our expert development services.</p>
         {/* Hero Button  */}
-        <button className='m-6 mt-0 md:m-12 md:ml-24 md:mt-0 p-2.5 font-bold border-[2px] border-[#5D45FD] rounded-[8px] hover:bg-[#5D45FD] duration-200'> Let's Talk ↗ </button>
+        <button className='m-6 mt-0 md:m-12 md:ml-24 md:mt-0 p-2.5 font-bold border-[2px] border-[#5D45FD] rounded-[8px] hover:bg-[#5D45FD] duration-200'>
+          <a href="https://wa.link/2qaj9m"  >Let's Talk ↗ </a></button>
       </div>
+      {/* https://wa.link/2qaj9m */}
     </div>
   )
 }

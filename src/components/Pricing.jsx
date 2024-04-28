@@ -18,7 +18,7 @@ export default function Pricing() {
             <li>No Customer support </li>
             <li>Social Media Integration </li>
             <li>Google map Integration </li>
-            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200 font-bold text-[17px] '> ₹ 4999 </button>
+            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/f3f745">₹ 3999</a></button>
           </ul>
         </div>
 
@@ -33,7 +33,7 @@ export default function Pricing() {
             <li>24/7 Customer support </li>
             <li>Social Media Integration </li>
             <li>Google map Integration </li>
-            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200 font-bold text-[17px] '> ₹ 7999 </button>
+            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/bw9gb2">₹ 7999</a> </button>
           </ul>
         </div>
 
