@@ -34,9 +34,8 @@ export default function WhyUs_2() {
   return (
     <div
       ref={whyUsRef}
-      className={`bg-[#1A1625] text-white ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
-      } transition-opacity transform duration-1000 ease-in-out`} id='why-us'
+      className={`bg-[#1A1625] text-white ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+        } transition-opacity transform duration-1000 ease-in-out`} id='why-us'
     >
       <h1 className='text-3xl font-bold p-10 md:pl-16 md:pt-5'>Why US ?</h1>
 
@@ -75,11 +74,11 @@ export default function WhyUs_2() {
 
       <h1 className='p-8   md:text-center text-[20px] font-bold' > Technologies used at Webace </h1>
       <div className='flex flex-wrap justify-center space-x-3 md:space-x-10 ' >
-        <img src={html} alt="html" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
-        <img src={css} alt="css" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
-        <img src={js} alt="js" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
-        <img src={tailwind} alt="tailwind" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false"  />
-        <img src={react} alt="react" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px]  ' draggable="false"  />
+        <img src={html} alt="html" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false" />
+        <img src={css} alt="css" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false" />
+        <img src={js} alt="js" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false" />
+        <img src={tailwind} alt="tailwind" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px] ' draggable="false" />
+        <img src={react} alt="react" className='w-[100px] rounded-[10px] bg-[whitesmoke] my-3 p-3 h-[100px]  ' draggable="false" />
       </div>
     </div>
   );
