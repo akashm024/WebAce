@@ -13,7 +13,7 @@ export default function Pricing() {
           <ul className='list-disc p-5 text-[14px]'>
             <li>Unlimited Hosting </li>
             <li>10 Revisions</li>
-            <li>1 year free Domain</li>
+            <li>Free Sub-Domain</li>
             <li>Free SSL Certificate</li>
             <li>No Customer support </li>
             <li>Social Media Integration </li>
@@ -28,7 +28,7 @@ export default function Pricing() {
           <ul className='list-disc p-5 text-[14px]'>
             <li>Unlimited Hosting </li>
             <li>Unlimited Revisions</li>
-            <li>2 year free Domain</li>
+            <li>Free Sub-Domian + Full Domain</li>
             <li>Free SSL Certificate</li>
             <li>24/7 Customer support </li>
             <li>Social Media Integration </li>
