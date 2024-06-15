@@ -57,7 +57,7 @@ export default function Hero() {
         <p className='p-6 pt-0  text-[12px] md:text-[16px] text-[#b9b9b9] w-[90%] md:w-[60%] md:p-12 md:pl-24 md:pt-0 md:pb-6'>WebAce: Crafting dynamic websites to elevate your business. Stand out online with our expert development services.</p>
         {/* Hero Button  */}
         <button className='m-6 mt-0 md:m-12 md:ml-24 md:mt-0 p-2.5 font-bold border-[2px] border-[#5D45FD] rounded-[8px] hover:bg-[#5D45FD] duration-200'>
-          <a href="https://wa.link/2qaj9m"  >Let's Talk ↗ </a></button>
+          <a href="https://wa.link/ljvm7z"  >Let's Talk ↗ </a></button>
       </div>
       {/* https://wa.link/2qaj9m */}
     </div>

@@ -19,7 +19,7 @@ export default function Pricing() {
             <li>5 pages per website</li>
             <li>Social Media Integration </li>
             <li>Google map Integration </li>
-            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/f3f745">₹ 2999</a></button>
+            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/fm35yr">₹ 2999</a></button>
           </ul>
         </div>
 
@@ -35,7 +35,7 @@ export default function Pricing() {
             <li>Unlimited pages</li>
             <li>Social Media Integration </li>
             <li>Google map Integration </li>
-            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/bw9gb2">₹ 6999</a> </button>
+            <button className='border-[2px] border-[#5D45FD] w-[100px] rounded-[8px] mx-[30%] mt-6  text-center p-2 bg-[#5D45FD] duration-200  text-[17px] '> <a className='font-bold' href="https://wa.link/t54l5y">₹ 6999</a> </button>
           </ul>
         </div>
 
